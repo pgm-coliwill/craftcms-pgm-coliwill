@@ -1,0 +1,27 @@
+{% extends "layouts/base.twig" %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="/css/categories/categoryDetail.css">
+{% endblock %}
+
+{% set myEntryQuery = craft.entries().section('items').relatedTo(entry) %}
+{% set entries = myEntryQuery.all() %}
+
+{% block body %}
+<div class="container">
+    <h1>{{ entry.title }}</h1>
+
+    {% if entry.description %}
+        <p>{{ entry.description }}</p>
+    {% endif %}
+
+    <h2>Items</h2>
+    <ul>
+        {% for entry in entries %}
+            <li>
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

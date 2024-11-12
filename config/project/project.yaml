@@ -1,0 +1,43 @@
+dateModified: 1731427300
+email:
+  fromEmail: cwillems1903@gmail.com
+  fromName: craft-eindproject
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: /images
+meta:
+  __names__:
+    4a8c4327-102a-43c3-ab0e-c527e5095c2b: craft-eindproject # craft-eindproject
+    4bbe6fda-f17a-4969-8f87-154934410708: Small # Small
+    7fcc62cd-904f-4738-abb5-739cfe278b1f: Description # Description
+    28e8f6e9-3415-4f68-8cd5-37d875c78e52: 'Public Schema' # Public Schema
+    46cc2cc9-1ebe-41ef-af40-899882c127ef: Categories # Categories
+    264cfef0-2d06-4198-ab33-71f3b0f593bc: craft-eindproject # craft-eindproject
+    a96a970f-c491-425f-b402-25ce2b451181: Categories # Categories
+    a98f3176-e215-4b47-acff-001465fdfc8a: ItemImage # ItemImage
+    a6581f07-e70e-4213-9257-f7dd8c36a8c1: Items # Items
+    a34954f8-ee15-4413-af04-d685e95a0c6e: Items # Items
+    a4146483-3976-438d-bb82-920e02ad5ed3: Users # Users
+    bc3e1997-f1fb-409f-b75d-c1089e3365a1: Categories # Categories
+    cb7139fb-d6e2-4529-9781-80b3fc31c7f7: User # User
+    d3635528-b99a-4945-85a7-304b466fd1e3: Price # Price
+    fba44cc8-9a61-40bc-ad3e-a7eb278bbcdb: Items # Items
+system:
+  edition: solo
+  live: true
+  name: craft-eindproject
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

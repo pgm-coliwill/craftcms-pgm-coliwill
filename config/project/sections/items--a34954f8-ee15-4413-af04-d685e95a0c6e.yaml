@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - fba44cc8-9a61-40bc-ad3e-a7eb278bbcdb # Items
+handle: items
+maxAuthors: 1
+name: Items
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  264cfef0-2d06-4198-ab33-71f3b0f593bc: # craft-eindproject
+    enabledByDefault: true
+    hasUrls: true
+    template: items/_entry.twig
+    uriFormat: 'items/{slug}'
+type: channel
